@@ -62,7 +62,6 @@ nav a {
     text-decoration: none;
     color: #777777;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 40;
 }
 div {
     background-image: url(../images/prism.png);
@@ -102,4 +101,19 @@ footer {
     height: 60px;
     line-height: 52px;
     padding: 0px;
+}
+
+ul {
+    list-style: none;
+    display: block;
+    clear: both;
+    column-count: 2;
+    width: 500px;
+}
+
+li {
+    width: 200px;
+    height: 175px;
+ overflow: hidden;
+    margin: 25px;
 }
