@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box
+}
+
+html, body, h1, section, div, header {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: green;
+}
+header {
+    background-color: #ffffff;
+    clear: both;
+    display: block;
+    overflow: auto;
+    border: 2px solid #cccccc;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    height: 95px;
+}
+h1 {
+    color: white;
+    background-color: #4aaaa5;
+    font-family: 'Georgia';
+    width: 20%;
+    float: left;
+    height: 100%;
+    line-height: 90px;
+    font-size: 30px;
+    margin-left: 200px;
+    text-align: center;
+}
+nav {
+    width: 40%;
+    float: right;
+    height: 90px;
+    background-color: #ffffff;
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-right: 200px;
+}
+nav a {
+    background-color: white;
+    float: right;
+    margin-top: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-right: 1px solid #cccccc;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-decoration: none;
+    color: #777777;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 40;
+}
+div {
+    background-image: url(../images/tiny-squares.png);
+    overflow: auto;
+}
+section {
+    background-color: white;
+    width: 960px;
+    margin: 50px 200px 0px;
+}
